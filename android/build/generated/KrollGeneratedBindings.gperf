@@ -1,0 +1,16 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name Accman2Bindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "ti.accountmanager.AccountManagerModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+ti.accountmanager.AccountManagerModule, ::ti::accountmanager::AccountManagerModule::bindProxy, ::ti::accountmanager::AccountManagerModule::dispose
+%%
