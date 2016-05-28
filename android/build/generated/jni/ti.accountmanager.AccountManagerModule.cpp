@@ -45,7 +45,7 @@ void AccountManagerModule::bindProxy(Handle<Object> exports)
 	}
 
 	// use symbol over string for efficiency
-	Handle<String> nameSymbol = String::NewSymbol("Accman2");
+	Handle<String> nameSymbol = String::NewSymbol("AccountManager");
 
 	Local<Function> proxyConstructor = proxyTemplate->GetFunction();
 	Local<Object> moduleInstance = proxyConstructor->NewInstance();
@@ -75,7 +75,7 @@ Handle<FunctionTemplate> AccountManagerModule::getProxyTemplate()
 	HandleScope scope;
 
 	// use symbol over string for efficiency
-	Handle<String> nameSymbol = String::NewSymbol("Accman2");
+	Handle<String> nameSymbol = String::NewSymbol("AccountManager");
 
 	Handle<FunctionTemplate> t = titanium::Proxy::inheritProxyTemplate(
 		titanium::KrollModule::getProxyTemplate()

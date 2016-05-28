@@ -16,9 +16,9 @@ function moduleBootstrap(moduleBinding) {
 			name, namespace, moduleBinding.getBinding);
 	}
 
-	var module = moduleBinding.getBinding("ti.accountmanager.AccountManagerModule")["Accman2"];
+	var module = moduleBinding.getBinding("ti.accountmanager.AccountManagerModule")["AccountManager"];
 	var invocationAPIs = module.invocationAPIs = [];
-	module.apiName = "Accman2";
+	module.apiName = "AccountManager";
 
 	function addInvocationAPI(module, moduleNamespace, namespace, api) {
 		invocationAPIs.push({ namespace: namespace, api: api });

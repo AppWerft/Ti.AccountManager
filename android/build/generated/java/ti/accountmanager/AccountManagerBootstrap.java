@@ -10,7 +10,7 @@ package ti.accountmanager;
 
 import org.appcelerator.kroll.KrollExternalModule;
 
-public class Accman2Bootstrap implements KrollExternalModule
+public class AccountManagerBootstrap implements KrollExternalModule
 {
 	public void bootstrap()
 	{

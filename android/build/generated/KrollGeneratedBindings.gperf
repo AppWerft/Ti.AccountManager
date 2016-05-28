@@ -1,5 +1,5 @@
 %define lookup-function-name lookupGeneratedInit
-%define class-name Accman2Bindings
+%define class-name AccountManagerBindings
 %{
 
 #include <string.h>

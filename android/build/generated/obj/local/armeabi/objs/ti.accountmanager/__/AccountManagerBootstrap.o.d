@@ -1,5 +1,5 @@
-/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T//fuerst/accouman-generated/obj/local/armeabi-v7a/objs/ti.accountmanager/__/Accman2Bootstrap.o: \
- jni/../Accman2Bootstrap.cpp \
+/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T//fuerst/AccountManager-generated/obj/local/armeabi/objs/ti.accountmanager/__/AccountManagerBootstrap.o: \
+ jni/../AccountManagerBootstrap.cpp \
  /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/jni.h \
  /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/cdefs.h \
  /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/cdefs_elf.h \

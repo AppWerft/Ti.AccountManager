@@ -1,4 +1,4 @@
-<project name="accouman" default="dist">
+<project name="AccountManager" default="dist">
 	<description>
 		Ant build script for Titanium Android module accouman
 	</description>

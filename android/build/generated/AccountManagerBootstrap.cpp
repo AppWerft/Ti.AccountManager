@@ -22,12 +22,12 @@ using namespace v8;
 
 static Persistent<Object> bindingCache;
 
-static Handle<Value> Accman2_getBinding(const Arguments& args)
+static Handle<Value> AccountManager_getBinding(const Arguments& args)
 {
 	HandleScope scope;
 
 	if (args.Length() == 0) {
-		return ThrowException(Exception::Error(String::New("Accman2.getBinding requires 1 argument: binding")));
+		return ThrowException(Exception::Error(String::New("AccountManager.getBinding requires 1 argument: binding")));
 	}
 
 	if (bindingCache.IsEmpty()) {
@@ -44,7 +44,7 @@ static Handle<Value> Accman2_getBinding(const Arguments& args)
 
 	LOGD(TAG, "Looking up binding: %s", *bindingValue);
 
-	titanium::bindings::BindEntry *extBinding = ::Accman2Bindings::lookupGeneratedInit(
+	titanium::bindings::BindEntry *extBinding = ::AccountManagerBindings::lookupGeneratedInit(
 		*bindingValue, bindingValue.length());
 
 	if (!extBinding) {
@@ -59,7 +59,7 @@ static Handle<Value> Accman2_getBinding(const Arguments& args)
 	return exports;
 }
 
-static void Accman2_init(Handle<Object> exports)
+static void AccountManager_init(Handle<Object> exports)
 {
 	HandleScope scope;
 
@@ -71,10 +71,10 @@ static void Accman2_init(Handle<Object> exports)
 		exports->Set(name, source);
 	}
 
-	exports->Set(String::New("getBinding"), FunctionTemplate::New(Accman2_getBinding)->GetFunction());
+	exports->Set(String::New("getBinding"), FunctionTemplate::New(AccountManager_getBinding)->GetFunction());
 }
 
-static void Accman2_dispose()
+static void AccountManager_dispose()
 {
 	HandleScope scope;
 	if (bindingCache.IsEmpty()) {
@@ -89,7 +89,7 @@ static void Accman2_dispose()
 		int bindingLength = binding.length();
 
 		titanium::bindings::BindEntry *extBinding =
-			::Accman2Bindings::lookupGeneratedInit(*binding, bindingLength);
+			::AccountManagerBindings::lookupGeneratedInit(*binding, bindingLength);
 
 		if (extBinding && extBinding->dispose) {
 			extBinding->dispose();
@@ -100,17 +100,17 @@ static void Accman2_dispose()
 	bindingCache = Persistent<Object>();
 }
 
-static titanium::bindings::BindEntry Accman2Binding = {
+static titanium::bindings::BindEntry AccountManagerBinding = {
 	"ti.accountmanager",
-	Accman2_init,
-	Accman2_dispose
+	AccountManager_init,
+	AccountManager_dispose
 };
 
 // Main module entry point
 extern "C" JNIEXPORT void JNICALL
-Java_ti_accountmanager_Accman2Bootstrap_nativeBootstrap
+Java_ti_accountmanager_AccountManagerBootstrap_nativeBootstrap
 	(JNIEnv *env, jobject self)
 {
-	titanium::KrollBindings::addExternalBinding("ti.accountmanager", &Accman2Binding);
-	titanium::KrollBindings::addExternalLookup(&(::Accman2Bindings::lookupGeneratedInit));
+	titanium::KrollBindings::addExternalBinding("ti.accountmanager", &AccountManagerBinding);
+	titanium::KrollBindings::addExternalLookup(&(::AccountManagerBindings::lookupGeneratedInit));
 }

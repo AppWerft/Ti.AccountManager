@@ -1,8 +1,8 @@
 /* C++ code produced by gperf version 3.0.3 */
-/* Command-line: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/gperf -L C++ -E -t /private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/accouman-generated/KrollGeneratedBindings.gperf  */
+/* Command-line: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/gperf -L C++ -E -t /private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/AccountManager-generated/KrollGeneratedBindings.gperf  */
 /* Computed positions: -k'' */
 
-#line 3 "/private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/accouman-generated/KrollGeneratedBindings.gperf"
+#line 3 "/private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/AccountManager-generated/KrollGeneratedBindings.gperf"
 
 
 #include <string.h>
@@ -12,11 +12,11 @@
 #include "ti.accountmanager.AccountManagerModule.h"
 
 
-#line 13 "/private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/accouman-generated/KrollGeneratedBindings.gperf"
+#line 13 "/private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/AccountManager-generated/KrollGeneratedBindings.gperf"
 struct titanium::bindings::BindEntry;
 /* maximum key range = 1, duplicates = 0 */
 
-class Accman2Bindings
+class AccountManagerBindings
 {
 private:
   static inline unsigned int hash (const char *str, unsigned int len);
@@ -26,13 +26,13 @@ public:
 
 inline /*ARGSUSED*/
 unsigned int
-Accman2Bindings::hash (register const char *str, register unsigned int len)
+AccountManagerBindings::hash (register const char *str, register unsigned int len)
 {
   return len;
 }
 
 struct titanium::bindings::BindEntry *
-Accman2Bindings::lookupGeneratedInit (register const char *str, register unsigned int len)
+AccountManagerBindings::lookupGeneratedInit (register const char *str, register unsigned int len)
 {
   enum
     {
@@ -50,7 +50,7 @@ Accman2Bindings::lookupGeneratedInit (register const char *str, register unsigne
       {""}, {""}, {""}, {""}, {""}, {""}, {""}, {""}, {""},
       {""}, {""}, {""}, {""}, {""}, {""}, {""}, {""}, {""},
       {""}, {""},
-#line 15 "/private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/accouman-generated/KrollGeneratedBindings.gperf"
+#line 15 "/private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/AccountManager-generated/KrollGeneratedBindings.gperf"
       {"ti.accountmanager.AccountManagerModule", ::ti::accountmanager::AccountManagerModule::bindProxy, ::ti::accountmanager::AccountManagerModule::dispose}
     };
 
@@ -68,5 +68,5 @@ Accman2Bindings::lookupGeneratedInit (register const char *str, register unsigne
     }
   return 0;
 }
-#line 16 "/private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/accouman-generated/KrollGeneratedBindings.gperf"
+#line 16 "/private/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T/fuerst/AccountManager-generated/KrollGeneratedBindings.gperf"
 

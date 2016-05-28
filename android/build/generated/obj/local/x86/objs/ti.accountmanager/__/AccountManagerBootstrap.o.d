@@ -1,9 +1,9 @@
-/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T//fuerst/accouman-generated/obj/local/armeabi/objs/ti.accountmanager/__/Accman2Bootstrap.o: \
- jni/../Accman2Bootstrap.cpp \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/jni.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/cdefs.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/cdefs_elf.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/android/api-level.h \
+/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T//fuerst/AccountManager-generated/obj/local/x86/objs/ti.accountmanager/__/AccountManagerBootstrap.o: \
+ jni/../AccountManagerBootstrap.cpp \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/jni.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/cdefs.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/cdefs_elf.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/android/api-level.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stdarg.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/config/features.h \
@@ -22,29 +22,30 @@
  /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/v8stdint.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stddef.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stdio.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/stdio.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/types.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/stdint.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/_types.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/machine/_types.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/posix_types.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/stddef.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/compiler.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/posix_types.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/types.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/types.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/machine/kernel.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/sysmacros.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/stdio.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/types.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/stdint.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/_types.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/machine/_types.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/posix_types.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/stddef.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/compiler.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/posix_types.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/posix_types_32.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/types.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/types.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/machine/kernel.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/sysmacros.h \
  /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/AndroidUtil.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/android/log.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/android/log.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stdlib.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/stdlib.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/stdlib.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/string.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/string.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/malloc.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/alloca.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/strings.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/memory.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/string.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/malloc.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/alloca.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/strings.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/memory.h \
  /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/KrollBindings.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/map \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
@@ -57,17 +58,18 @@
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/using/cstring \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/climits \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/limits.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/limits.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/limits.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/limits.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/machine/internal_types.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/machine/limits.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/syslimits.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/page.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/limits.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/limits.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/limits.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/machine/internal_types.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/machine/limits.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/syslimits.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/page.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/page_32.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_cmath.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/math.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/math.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/math.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_pair.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/type_traits.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/type_manips.h \
@@ -96,14 +98,14 @@
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/char_traits.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_cwchar.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/wchar.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/wchar.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/time.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/time.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/time.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/time.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/siginfo.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm-generic/siginfo.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/_wchar_limits.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/time.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/time.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/time.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/siginfo.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm-generic/siginfo.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/_wchar_limits.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_string_base.h \
@@ -125,15 +127,15 @@
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_locale.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_threads.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/pthread.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/pthread.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/pthread.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/signal.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/signal.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/signal.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm-generic/signal.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/ucontext.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/user.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/sigcontext.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sched.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/signal.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/signal.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm-generic/signal.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/sigcontext.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/ucontext.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/user.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sched.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_threads.c \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_ctime.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h \
@@ -168,17 +170,17 @@
  /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/Proxy.h \
  /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/JavaObject.h \
  /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/assert.h \
- /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/assert.h \
+ /Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/assert.h \
  /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/EventEmitter.h \
  /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/NativeObject.h
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/jni.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/jni.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/cdefs.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/cdefs.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/cdefs_elf.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/cdefs_elf.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/android/api-level.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/android/api-level.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stdarg.h:
 
@@ -216,51 +218,53 @@
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stdio.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/stdio.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/stdio.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/types.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/types.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/stdint.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/stdint.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/_types.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/_types.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/machine/_types.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/machine/_types.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/posix_types.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/posix_types.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/stddef.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/stddef.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/compiler.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/compiler.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/posix_types.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/posix_types.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/types.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/posix_types_32.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/types.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/types.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/machine/kernel.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/types.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/sysmacros.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/machine/kernel.h:
+
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/sysmacros.h:
 
 /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/AndroidUtil.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/android/log.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/android/log.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stdlib.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/stdlib.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/stdlib.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/string.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/string.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/string.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/malloc.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/malloc.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/alloca.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/alloca.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/strings.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/strings.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/memory.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/memory.h:
 
 /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/KrollBindings.h:
 
@@ -286,19 +290,21 @@
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/limits.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/limits.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/limits.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/limits.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/limits.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/limits.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/limits.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/machine/internal_types.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/machine/internal_types.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/machine/limits.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/machine/limits.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/syslimits.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/syslimits.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/page.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/page.h:
+
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/page_32.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h:
 
@@ -306,7 +312,7 @@
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/math.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/math.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/math.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_pair.h:
 
@@ -364,21 +370,21 @@
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_cwchar.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/wchar.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/wchar.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/time.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/time.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/time.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/time.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/time.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/linux/time.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/linux/time.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/siginfo.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/siginfo.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm-generic/siginfo.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm-generic/siginfo.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/_wchar_limits.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/_wchar_limits.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h:
 
@@ -422,23 +428,23 @@
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/pthread.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/pthread.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/pthread.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/signal.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/signal.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/signal.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/signal.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/signal.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm-generic/signal.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm-generic/signal.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/ucontext.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/asm/sigcontext.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sys/user.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/ucontext.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/asm/sigcontext.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sys/user.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/sched.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/sched.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/stl/_threads.c:
 
@@ -510,7 +516,7 @@ jni/ti.accountmanager.AccountManagerModule.h:
 
 /Users/fuerst/Library/android-ndk-macosx/sources/cxx-stl/stlport/stlport/assert.h:
 
-/Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/../include/assert.h:
+/Users/fuerst/Library/android-ndk-macosx/platforms/android-9/arch-x86/usr/include/../include/assert.h:
 
 /Library/Application\ Support/Titanium/mobilesdk/osx/5.2.0.GENPERM/android/native/include/EventEmitter.h:
 

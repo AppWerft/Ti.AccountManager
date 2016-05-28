@@ -1,4 +1,4 @@
-/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T//fuerst/accouman-generated/obj/local/armeabi/objs/ti.accountmanager/ti.accountmanager.AccountManagerModule.o: \
+/var/folders/25/yvdn9h053sv3htdkzq8558k40000gn/T//fuerst/AccountManager-generated/obj/local/armeabi/objs/ti.accountmanager/ti.accountmanager.AccountManagerModule.o: \
  jni/ti.accountmanager.AccountManagerModule.cpp \
  jni/ti.accountmanager.AccountManagerModule.h \
  /Users/fuerst/Library/android-ndk-macosx/platforms/android-3/arch-arm/usr/include/jni.h \

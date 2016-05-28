@@ -20,7 +20,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 
-@Kroll.module(name = "Accman2", id = "org.bcbhh")
+@Kroll.module(name = "AccountManager", id = "ti.accountmanager")
 public class AccountManagerModule extends KrollModule {
 
 	private static final String ACCOUNT_NAME = "name";
@@ -58,7 +58,6 @@ public class AccountManagerModule extends KrollModule {
 
 	@Kroll.method
 	public KrollDict[] getAccounts() {
-
 		Account[] accounts = mAccountManager.getAccounts();
 		KrollDict[] accountList = new KrollDict[accounts.length];
 		int idx = 0;

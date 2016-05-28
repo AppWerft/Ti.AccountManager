@@ -5,13 +5,13 @@
 version: 0.0.1
 apiversion: 2
 architectures: armeabi armeabi-v7a x86
-description: accouman
+description: accountManager
 author: Rainer Schleevoigt
 license: Specify your license
 copyright: Copyright (c) 2016 by 
 
 # these should not be edited
-name: accouman
+name: AccountManager
 moduleid: ti.accountmanager
 guid: cfae8ddb-0894-4e61-a499-456e05b26a06
 platform: android
