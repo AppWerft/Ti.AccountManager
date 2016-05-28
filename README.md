@@ -17,6 +17,7 @@ For example,
 ~~~~
 
 var accountmodule = require('ti.accountmanager');
-accountmodule
+var myAccounts = accountmodule.getAccounts();
+var authToken = accountmodule.getAuthToken(String accountName, String accountType, Object params);
 
 ~~~~
