@@ -2,6 +2,7 @@ package ti.accountmanager;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.Map;
 
 import org.appcelerator.kroll.KrollDict;
@@ -28,13 +29,13 @@ public class AccountManagerModule extends KrollModule {
 	private static final String ACCOUNT_TYPE_LABEL = "accountType";
 
 	// Standard Debugging variables
-	private static final String LCAT = "Accman2Module";
+	private static final String LCAT = "AccountManager" + "";
 	private static AccountManager mAccountManager;
 
-	private static Map<String, AuthenticatorDescription> _authenticatorLookup;
-	private static Resources _resources;
+	private static Map<String, AuthenticatorDescription> mAuthenticatorLookup;
+	private static Resources mResources;
 	private static PackageManager mPackageManager;
-
+	public ArrayList typeList;
 	// You can define constants with @Kroll.constant, for example:
 	// @Kroll.constant public static final String EXTERNAL_NAME = value;
 
@@ -44,49 +45,55 @@ public class AccountManagerModule extends KrollModule {
 
 	@Kroll.onAppCreate
 	public static void onAppCreate(TiApplication app) {
-
 		mPackageManager = app.getPackageManager();
-		_resources = app.getResources();
+		ArrayList typeList = new ArrayList();
+		mResources = app.getResources();
 		mAccountManager = AccountManager.get(app.getApplicationContext());
-		AuthenticatorDescription[] accTypes = mAccountManager.getAuthenticatorTypes();
-		_authenticatorLookup = new HashMap<String, AuthenticatorDescription>();
+		AuthenticatorDescription[] accTypes = mAccountManager
+				.getAuthenticatorTypes();
+		mAuthenticatorLookup = new HashMap<String, AuthenticatorDescription>();
 		for (AuthenticatorDescription authDesc : accTypes) {
-			_authenticatorLookup.put(authDesc.type, authDesc);
+			mAuthenticatorLookup.put(authDesc.type, authDesc);
+			typeList.add(authDesc.type);
 		}
-		Log.d(LCAT, "inside onAppCreate");
+		Log.d(LCAT, "inside onAppCreate ≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠");
+
 	}
 
 	@Kroll.method
 	public KrollDict[] getAccounts() {
-		Account[] accounts = mAccountManager.getAccounts();
+		Account[] accounts = mAccountManager.getAccounts(); // array is always empty	
 		KrollDict[] accountList = new KrollDict[accounts.length];
 		int idx = 0;
 		for (Account account : accounts) {
 			KrollDict accountDict = new KrollDict();
+			Log.d(LCAT, account.toString());
 			accountDict.put(ACCOUNT_NAME, account.name);
 			accountDict.put(ACCOUNT_TYPE, account.type);
 			accountDict.put(ACCOUNT_TYPE_LABEL,
-					labelForAuthenticator(_authenticatorLookup
+					labelForAuthenticator(mAuthenticatorLookup
 							.get(account.type)));
 			accountList[idx] = accountDict;
 			idx++;
 		}
+		Log.d(LCAT,accountList.toString());
 		return accountList;
 	}
 
 	@Kroll.method
 	public String getAuthToken(String accountName, String accountType,
-			HashMap<String,Object> params) {
+			HashMap<String, Object> params) {
 		Account[] accounts = mAccountManager.getAccountsByType(accountType);
 		for (Account account : accounts) {
 			if (accountName.equals(account.name)) {
 				String token = null;
 				try {
 					Log.e(LCAT, "Trying to get token for " + accountName);
-					token = mAccountManager.blockingGetAuthToken(account, "", true);
+					token = mAccountManager.blockingGetAuthToken(account, "",
+							true);
 					Log.e(LCAT, "After blocking call");
 				} catch (Exception e) {
-				
+
 					e.printStackTrace();
 
 				}
