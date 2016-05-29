@@ -35,7 +35,6 @@ public class AccountManagerModule extends KrollModule {
 	private static Map<String, AuthenticatorDescription> mAuthenticatorLookup;
 	private static Resources mResources;
 	private static PackageManager mPackageManager;
-	public ArrayList typeList;
 	// You can define constants with @Kroll.constant, for example:
 	// @Kroll.constant public static final String EXTERNAL_NAME = value;
 
@@ -46,7 +45,6 @@ public class AccountManagerModule extends KrollModule {
 	@Kroll.onAppCreate
 	public static void onAppCreate(TiApplication app) {
 		mPackageManager = app.getPackageManager();
-		ArrayList typeList = new ArrayList();
 		mResources = app.getResources();
 		mAccountManager = AccountManager.get(app.getApplicationContext());
 		AuthenticatorDescription[] accTypes = mAccountManager
@@ -54,20 +52,16 @@ public class AccountManagerModule extends KrollModule {
 		mAuthenticatorLookup = new HashMap<String, AuthenticatorDescription>();
 		for (AuthenticatorDescription authDesc : accTypes) {
 			mAuthenticatorLookup.put(authDesc.type, authDesc);
-			typeList.add(authDesc.type);
 		}
-		Log.d(LCAT, "inside onAppCreate ≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠");
-
 	}
 
 	@Kroll.method
 	public KrollDict[] getAccounts() {
-		Account[] accounts = mAccountManager.getAccounts(); // array is always empty	
+		Account[] accounts = mAccountManager.getAccounts(); 
 		KrollDict[] accountList = new KrollDict[accounts.length];
 		int idx = 0;
 		for (Account account : accounts) {
 			KrollDict accountDict = new KrollDict();
-			Log.d(LCAT, account.toString());
 			accountDict.put(ACCOUNT_NAME, account.name);
 			accountDict.put(ACCOUNT_TYPE, account.type);
 			accountDict.put(ACCOUNT_TYPE_LABEL,
@@ -76,7 +70,6 @@ public class AccountManagerModule extends KrollModule {
 			accountList[idx] = accountDict;
 			idx++;
 		}
-		Log.d(LCAT,accountList.toString());
 		return accountList;
 	}
 
@@ -93,9 +86,7 @@ public class AccountManagerModule extends KrollModule {
 							true);
 					Log.e(LCAT, "After blocking call");
 				} catch (Exception e) {
-
 					e.printStackTrace();
-
 				}
 				Log.e(LCAT, "Token returned" + token);
 				return token;

@@ -10,8 +10,13 @@ USING YOUR MODULE IN CODE
 var accountmodule = require('ti.accountmanager');
 var myAccounts = accountmodule.getAccounts();
 console.log(myAccounts);
+
+var tokens = myAccounts.map(function(a){
+    return accountmodule.getAuthToken(a.name,a.type);
+});
 ~~~~
 
+Example:
 ~~~
 [{
 "name":"kont****chmied","accountType":"Skype™","type":"com.skype.contacts.sync"
