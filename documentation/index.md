@@ -1,39 +1,34 @@
-# accouman Module
+Ti.AccountManger
+================
 
-## Description
+This is Titanium version of [Android's AccountManager](https://developer.android.com/reference/android/accounts/AccountManager.html). Thanks to Stefan.
 
-TODO: Enter your module description here
+USING YOUR MODULE IN CODE
+-------------------------
 
-## Accessing the accouman Module
+~~~~
+var accountmodule = require('ti.accountmanager');
+var myAccounts = accountmodule.getAccounts();
+console.log(myAccounts);
 
-To access this module from JavaScript, you would do the following:
+var tokens = myAccounts.map(function(a){
+return accountmodule.getAuthToken(a.name,a.type,{});
+});
+~~~~
 
-    var accouman = require("ti.accountmanager");
+Example:
+~~~
+[{
+"name":"kont****chmied","accountType":"Skype™","type":"com.skype.contacts.sync"
+},{
+"name":"sync","accountType":"ARTE","type":"tv.arte.plus7"
+},{
+"name":"kontak*****glemail.com","accountType":"Google","type":"com.google"
+},{
+"name":"appwerft","accountType":"Twitter","type":"com.twitter.android.auth.login"
+},{
+"name":"rain*****asterei-hamburg.de","accountType":"Meetup","type":"com.meetup.auth"
+}]
+~~~
 
-The accouman variable is a reference to the Module object.
-
-## Reference
-
-TODO: If your module has an API, you should document
-the reference here.
-
-### accouman.function
-
-TODO: This is an example of a module function.
-
-### accouman.property
-
-TODO: This is an example of a module property.
-
-## Usage
-
-TODO: Enter your usage example here
-
-## Author
-
-TODO: Enter your author name, email and other contact
-details you want to share here.
-
-## License
-
-TODO: Enter your license/legal information here.
+Dont forget to request the <uses-permission android:name="android.permission.GET_ACCOUNTS"/> permission! 
