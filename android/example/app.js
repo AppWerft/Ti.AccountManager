@@ -1,39 +1,19 @@
-// This is a test harness for your module
-// You should do something interesting in this harness
-// to test out the module and to provide instructions
-// to users on how to use it by example.
-
-
-// open a single window
-var win = Ti.UI.createWindow({
-	backgroundColor:'white'
-});
-var label = Ti.UI.createLabel();
-win.add(label);
-win.open();
-
-// TODO: write your module tests here
-var accouman = require('ti.accountmanager');
-Ti.API.info("module is => " + accouman);
-
-label.text = accouman.example();
-
-Ti.API.info("module exampleProp is => " + accouman.exampleProp);
-accouman.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = accouman.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
+! function() {
+	var win = Ti.UI.createWindow({
+		backgroundColor : 'white'
 	});
+	win.addEventListener('open', function() {
+		require('vendor/permissions').requestPermissions('GET_ACCOUNTS', function(_success) {
+			if (_success == true) {
+				var AcMan = require('ti.accountmanager');
+				var mAccounts = AcMan.getAccounts();
+				console.log(mAccounts);
+				var mTokens = myAccounts.map(function(a) {
+					return accountmodule.getAuthToken(a.name, a.type, {});
+				});
+			}
+		});
 
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
-}
-
+	});
+	win.open();
+}();
