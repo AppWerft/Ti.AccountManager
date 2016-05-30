@@ -32,3 +32,5 @@ Example:
 ~~~
 
 Dont forget to request the <uses-permission android:name="android.permission.GET_ACCOUNTS"/> permission! 
+
+For Marshmellow you need the new runtime permissions. Currently it only works with a patched version of 5.0.2.GA. You can ind the android.jar under [android/modules](https://github.com/AppWerft/Ti.AccountManager/blob/master/android/modules/android/titanium.jar)
