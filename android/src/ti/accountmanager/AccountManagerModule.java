@@ -35,6 +35,7 @@ public class AccountManagerModule extends KrollModule {
 	private static Map<String, AuthenticatorDescription> mAuthenticatorLookup;
 	private static Resources mResources;
 	private static PackageManager mPackageManager;
+
 	// You can define constants with @Kroll.constant, for example:
 	// @Kroll.constant public static final String EXTERNAL_NAME = value;
 
@@ -57,7 +58,7 @@ public class AccountManagerModule extends KrollModule {
 
 	@Kroll.method
 	public KrollDict[] getAccounts() {
-		Account[] accounts = mAccountManager.getAccounts(); 
+		Account[] accounts = mAccountManager.getAccounts();
 		KrollDict[] accountList = new KrollDict[accounts.length];
 		int idx = 0;
 		for (Account account : accounts) {
@@ -75,7 +76,7 @@ public class AccountManagerModule extends KrollModule {
 
 	@Kroll.method
 	public String getAuthToken(String accountName, String accountType,
-			HashMap<String, Object> params) {
+			@Kroll.argument(optional = true) KrollDict params) {
 		Account[] accounts = mAccountManager.getAccountsByType(accountType);
 		for (Account account : accounts) {
 			if (accountName.equals(account.name)) {

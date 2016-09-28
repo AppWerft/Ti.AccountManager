@@ -119,9 +119,9 @@ Handle<Value> AccountManagerModule::getAuthToken(const Arguments& args)
 	}
 	static jmethodID methodID = NULL;
 	if (!methodID) {
-		methodID = env->GetMethodID(AccountManagerModule::javaClass, "getAuthToken", "(Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap<java/lang/String,java/lang/Object>;)Ljava/lang/String;");
+		methodID = env->GetMethodID(AccountManagerModule::javaClass, "getAuthToken", "(Ljava/lang/String;Ljava/lang/String;Lorg/appcelerator/kroll/KrollDict;)Ljava/lang/String;");
 		if (!methodID) {
-			const char *error = "Couldn't find proxy method 'getAuthToken' with signature '(Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap<java/lang/String,java/lang/Object>;)Ljava/lang/String;'";
+			const char *error = "Couldn't find proxy method 'getAuthToken' with signature '(Ljava/lang/String;Ljava/lang/String;Lorg/appcelerator/kroll/KrollDict;)Ljava/lang/String;'";
 			LOGE(TAG, error);
 				return titanium::JSException::Error(error);
 		}
@@ -129,9 +129,9 @@ Handle<Value> AccountManagerModule::getAuthToken(const Arguments& args)
 
 	titanium::Proxy* proxy = titanium::Proxy::unwrap(args.Holder());
 
-	if (args.Length() < 3) {
+	if (args.Length() < 2) {
 		char errorStringBuffer[100];
-		sprintf(errorStringBuffer, "getAuthToken: Invalid number of arguments. Expected 3 but got %d", args.Length());
+		sprintf(errorStringBuffer, "getAuthToken: Invalid number of arguments. Expected 2 but got %d", args.Length());
 		return ThrowException(Exception::Error(String::New(errorStringBuffer)));
 	}
 
@@ -161,13 +161,18 @@ Handle<Value> AccountManagerModule::getAuthToken(const Arguments& args)
 	}
 
 	bool isNew_2;
+	if (args.Length() <= 2) {
+		jArguments[2].l = NULL;
+
+	} else {
 	
 	if (!args[2]->IsNull()) {
 		Local<Value> arg_2 = args[2];
 		jArguments[2].l =
-			titanium::TypeConverter::jsValueToJavaObject(env, arg_2, &isNew_2);
+			titanium::TypeConverter::jsObjectToJavaKrollDict(env, arg_2, &isNew_2);
 	} else {
 		jArguments[2].l = NULL;
+	}
 	}
 
 	jobject javaProxy = proxy->getJavaObject();

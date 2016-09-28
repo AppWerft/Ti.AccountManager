@@ -3,8 +3,8 @@ Ti.AccountManger
 
 This is Titanium version of [Android's AccountManager](https://developer.android.com/reference/android/accounts/AccountManager.html). Thanks to Stefan.
 
-USING YOUR MODULE IN CODE
--------------------------
+Usage
+-----
 
 ~~~~
 var accountmodule = require('ti.accountmanager');
